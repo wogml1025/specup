@@ -1,0 +1,123 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    background-image: url('../images/schback.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+    /* overflow: none; */
+    margin: 0;
+    padding: 0;
+    &::-webkit-scrollbar {
+    display: none !important; // 윈도우 크롬 등
+  }
+}
+#nav_Div{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    padding: 0.5%;
+    background-color:brown;
+}
+#nav_Div img{
+    cursor: pointer;
+    margin-left: 3%;
+}
+#user_Input{
+    margin-left: 60%;
+    color:white;
+    font-size: 25px;
+    cursor: pointer;
+}
+#help_Vertical{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#help_Vertical div{
+    display: table-cell;
+    vertical-align: middle;
+}
+#help_Vertical img{
+    display: table-cell;
+    vertical-align: middle;
+    margin-right: 5%;
+    width: auto;
+}
+#user_Input img{
+    margin-left: 10%;
+}
+#body_Div{
+  width: 80%;
+  height: 100%;
+  border-style: solid;
+  border-color: gray;
+  margin: 6% auto;
+}
+#title{
+  width: 40%;
+    height: 7%;
+    margin: 0 auto;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+}
+#filter_box_wrapper{
+width: 100%;
+height: 10%;
+margin: 1% auto;
+text-align: center;
+}
+#filter_box{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.filter_boxes{
+  display: inline-block;
+  text-align: center;
+  width: 10%;
+  height: 90%;
+  color: white;
+}
+.filter_names{
+  width: 90%;
+height: 20%;
+display: inline-block;
+text-align: center;
+
+}
+.filters{
+  display: inline;
+    width: 100%;
+    height: 80%;
+}
+
+#search_div{
+  width: 15%;
+height: 10%;
+margin: 2% auto;
+color: white;
+}
+#search_div_baby{
+  display: inline-flex;
+}
+#search_img{
+  display: inline-block;
+width: 40%;
+height: 100%;
+}
+#search_text{
+  display: inline-block;
+  font-size: x-large;
+  color: white;
+}
+#result{
+  border-style: solid;
+  border-color: tomato;
+  width: 100%;
+height: 100%;
+display: inline-block;
+}
